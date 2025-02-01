@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Items</title>
+    <link rel="stylesheet" href="Donate_in_future.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>List Your Items for Donation</h2>
+        <form action="#" method="POST">
+            
+            <label for="itemName">Your Name:</label>
+            <input type="text" id="itemName" name="itemName" placeholder="Enter Your name" required>
+            
+            <label for="States">State:</label>
+            <select id="category" name="category" required>
+                <option value="">Select Your State</option>
+                <option value="Food">Punjab</option>
+                <option value="Clothes">Uttar Pradesh</option>
+                <option value="Books">Bihar</option>
+                <option value="Toys">Delhi</option>
+                <option value="Others">Uttarakhand</option>
+            </select>
+
+            <label for="City">City:</label>
+            <select id="category" name="category" required>
+                <option value="">Select Your City</option>
+                <option value="Food">Jalandhar</option>
+                <option value="Clothes">Phagwara</option>
+                <option value="Books">Amritsar</option>
+                <option value="Others">Ludhiana</option>
+                <option value="Toys">Mathura</option>
+                <option value="Food">Luckhnow</option>
+                <option value="Clothes">Agra</option>
+                <option value="Books">Saharanpur</option>
+                <option value="Others">Prayagraj</option>
+                <option value="Toys">Dehradhun</option>
+                <option value="Toys">Nainital</option>
+                <option value="Toys">Others</option>
+            </select>
+
+            
+            
+            <label for="pincode">Pincode:</label>
+            <input type="number">
+
+            <label for="pickupAddress">Pickup Address:</label>
+            <textarea id="pickupAddress" name="pickupAddress" rows="3" placeholder="Enter Pickup Address" required></textarea>
+
+            <label for="quantity">Expected Plates:</label>
+            <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter Number of Plates" required>
+            <label for="date">Date:</label>
+            <input type="date">
+            <label for="donorContact">Contact Number:</label>
+            <input type="tel" id="donorContact" name="donorContact" placeholder="Enter Your Contact Number" required>
+            
+            <label for="donorContact">Enter Email Address:</label>
+            <input type="email" id="donorContact" name="donorContact" placeholder="Enter Your Email Address" required>
+
+            <button type="submit">Submit Donation</button>
+        </form>
+    </div>
+
+</body>
+</html>

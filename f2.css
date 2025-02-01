@@ -1,0 +1,9 @@
+.scrolling-text {
+    width: 27%;
+    height: 350px;
+    background-color: #caf0f8;
+    padding: 10px;
+    text-align: center;
+    border: 3.5px solid #0077b6;
+    border-radius: 15px;
+}
